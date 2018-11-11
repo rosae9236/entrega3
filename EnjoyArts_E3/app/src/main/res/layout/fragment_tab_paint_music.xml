@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/tabMusic"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:visibility="visible"
+    tools:context=".Tab_paintMusic">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ImageView
+        android:id="@+id/kleebosquejovendetalle"
+        android:layout_width="match_parent"
+        android:layout_height="244dp"
+        android:contentDescription="@string/Klee"
+        android:src="@mipmap/ic_kleebosquejovendetalle_foreground" />
+
+    <ImageView
+        android:id="@+id/imageViewEgipt"
+        android:layout_width="match_parent"
+        android:layout_height="280dp"
+        android:contentDescription="@string/egipt"
+        android:src="@mipmap/ic_egipt_foreground" />
+</LinearLayout>

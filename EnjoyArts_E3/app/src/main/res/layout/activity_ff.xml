@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_blue_light"
+    android:orientation="vertical"
+    android:visibility="visible"
+    tools:context=".FFActivity">
+
+
+    <ImageView
+        android:id="@+id/imageViewStar"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:contentDescription="@string/star"
+        android:src="@drawable/ic_star_border_black_24dp" />
+
+    <TextView
+        android:id="@+id/textViewData"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:contentDescription="@string/data"
+        android:gravity="center"
+        android:paddingTop="15dp"
+        android:paddingBottom="30dp"
+        android:text="@string/data"
+        android:textColor="@android:color/background_light"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+    <!--
+    <ImageView
+        android:id="@+id/img_user"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:src="@drawable/ic_person_black_24dp" />
+-->
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/til_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="32dp"
+        android:layout_marginRight="32dp"
+        android:paddingBottom="15dp"
+        android:textColorHint="@android:color/holo_purple">
+
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/editTextName"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="15dp"
+            android:hint="@string/name"
+            android:inputType="textCapWords|textUri"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:textColor="@color/colorPrimary"
+            android:textColorLink="@color/colorAccent"
+            android:textSize="25sp"
+            app:counterEnabled="true"
+            app:counterMaxLength="30"
+            app:errorEnabled="true" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/til_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="32dp"
+        android:layout_marginRight="32dp"
+        android:textColorHint="@android:color/holo_purple"
+        app:errorEnabled="true">
+
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/editTextEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:hint="@string/email"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:textColor="@color/colorPrimary"
+            android:textSize="25sp" />
+    </android.support.design.widget.TextInputLayout>
+
+    <Button
+        android:id="@+id/buttonValidate"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:layout_marginTop="10dp"
+        android:contentDescription="@string/validate"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:text="@string/action_validate"
+        android:textColor="@color/colorPrimary"
+        android:textSize="22dp
+"
+        android:textStyle="bold" />
+    <!--
+    <TextView
+        android:id="@+id/textViewValidation"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:contentDescription="@string/validation" />
+-->
+    <TextView
+        android:id="@+id/textViewThankyou"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:contentDescription="@string/Thankyou"
+        android:gravity="bottom|center_horizontal|center"
+        android:text="@string/Thankyou"
+        android:textColor="@android:color/holo_orange_light"
+        android:textSize="30sp" />
+
+
+</LinearLayout>

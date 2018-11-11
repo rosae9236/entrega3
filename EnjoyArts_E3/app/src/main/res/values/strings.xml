@@ -1,0 +1,98 @@
+<resources>
+    <string name="app_name">EnjoyArts</string>
+    <string name="welcome">Bienvenido!!!</string>
+    <string name="buttonStart">Comenzamos</string>
+    <string name="select">¿Qué prefieres?</string>
+    <string name="img_enjoyart" />
+    <string name="img_enjoyart_pq" />
+    <string name="who_are_you">Escribe tu nombre, por favor</string>
+    <string name="expression1">Pintura</string>
+    <string name="expression2">Escultura</string>
+    <string name="buttonApply">aplicamos</string>
+    <string name="buttonContinue">Continuar</string>
+
+    <string name="brush">brush</string>
+
+
+    <!--NavigationDrawer-->
+    <string name="title_activity_navigation_drawer">Disfruta Arte</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <!-- <string name="nav_header_title">Android Studio</string> -->
+    <string name="nav_header_title">Disfrutar ARTE</string>
+    <!--<string name="nav_header_subtitle">android.studio@android.com</string> -->
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="painting">PINTURA</string>
+    <string name="sculpture">ESCULTURA</string>
+    <string name="gallery">GALERÍA</string>
+    <string name="slideshow">DIAPOSITIVAS</string>
+    <string name="tools">HERRAMIENTAS</string>
+    <string name="IMPORT">IMPORTAR</string>
+    <string name="paintColor">Color</string>
+    <string name="paintMusic">Música</string>
+    <string name="paintPoesia">Poesía</string>
+    <string name="sculptureDetail">Detail</string>
+    <string name="sculptureComplete">imgComplete</string>
+
+
+    <!--AppBar-->
+    <string name="help">Help</string>
+    <string name="home">Home</string>
+    <string name="info">Information</string>
+    <string name="favorite">Favorites</string>
+    <string name="search">Search</string>
+    <string name="title_activity_section_app_bar">SectionAppBarActivity</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_sections_app_bar">SectionsAppBarActivity</string>
+
+    <string name="title_activity_prueba">PruebaActivity</string>
+    <string name="title_activity_otra_cosa">OtraCosaActivity</string>
+    <!--tabs-->
+    <string name="Rothko_rnba">Rothko RNBA</string>
+    <string name="Klee">klee</string>
+    <string name="textObjetivo">Compartimos comprender regalos de Arte</string>
+
+    <!--Formulario-->
+    <string name="star">star</string>
+    <string name="Thankyou">Thank you</string>
+    <string name="name">Name</string>
+    <string name="surname">Surname</string>
+    <string name="email">e-mail</string>
+    <string name="action_cancel">CANCEL</string>
+    <string name="action_validate">VALIDATE</string>
+
+
+    <!--errores-->
+    <string name="error_campo_obligatorio">campo obligatorio</string>
+    <string name="error_email">correo no válido</string>
+    <string name="data">If you provide your information you will receive information about Art</string>
+    <string name="validation">validation</string>
+    <string name="validate">validate</string>
+    <string name="egipt">egipt</string>
+
+
+    <!--card-->
+
+    <string name="without_data">ContenProvider</string>
+    <string name="progress_loading_data">Loading data</string>
+    <string name="GoToCards">Go to Cards</string>
+
+
+    <!--crud-->
+    <string name="card">CARD</string>
+    <string name="author">Author</string>
+    <string name="title">Title</string>
+    <string name="year">Year</string>
+    <string name="location">Location</string>
+    <string name="create">CREATE</string>
+    <string name="read">READ</string>
+    <string name="update">UPDATE</string>
+    <string name="delete">DELETE</string>
+    <string name="artist">Artist</string>
+
+
+</resources>

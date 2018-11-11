@@ -1,0 +1,24 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:paddingLeft="5dp"
+    android:paddingTop="25dp"
+    android:paddingRight="5dp"
+    android:paddingBottom="5dp"
+    tools:context="com.example.rosa.enjoyarts.MainActivityCard">
+
+    <Button
+        android:id="@+id/buttonGotoCards"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:background="@android:color/holo_green_light"
+        android:gravity="center_vertical|center_horizontal|center"
+        android:text="@string/GoToCards"
+        android:textColor="@android:color/background_light"
+        android:textSize="24sp" />
+</RelativeLayout>

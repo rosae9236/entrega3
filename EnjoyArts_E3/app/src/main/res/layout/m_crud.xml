@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/m_crud"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    android:fitsSystemWindows="true"
+    tools:context=".card.MainCRUD">
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/appbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar_crud"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            app:layout_scrollFlags="scroll|enterAlways"
+            app:popupTheme="@style/AppTheme.PopupOverlay">
+
+        </android.support.v7.widget.Toolbar>
+
+    </android.support.design.widget.AppBarLayout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/main_crud"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingLeft="16dp"
+        android:paddingTop="16dp"
+        android:paddingRight="16dp"
+        android:paddingBottom="16dp">
+
+        <TextView
+            android:id="@+id/textViewCard"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="85dp"
+            android:layout_marginBottom="5dp"
+            android:gravity="center"
+            android:text="@string/card"
+            android:textColor="@android:color/background_light"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:layout_marginBottom="10dp"
+            android:background="@android:color/holo_purple"
+            android:textColorHint="@color/cardview_light_background">
+
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/editTextArtist"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/artist"
+                android:singleLine="true"
+                android:inputType="textCapWords|textUri"
+                android:textColor="@color/colorPrimaryDark"
+                android:textColorLink="@color/colorAccent"
+                android:textSize="24sp"
+                android:textStyle="italic" />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:background="@android:color/holo_green_light"
+            android:textColorHint="@color/cardview_light_background">
+
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/editTextTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:hint="@string/title"
+                android:singleLine="true"
+                android:inputType="textCapWords|textUri"
+                android:textColor="@color/colorPrimaryDark"
+                android:textColorLink="@color/colorAccent"
+                android:textSize="24sp"
+                android:textStyle="italic" />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:background="@android:color/holo_blue_bright"
+            android:textColorHint="@color/cardview_light_background">
+
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/editTextYear"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:hint="@string/year"
+                android:singleLine="true"
+                android:maxLength="4"
+                android:inputType="textUri|number"
+                android:textColor="@color/colorPrimaryDark"
+                android:textColorLink="@color/colorAccent"
+                android:textSize="24sp"
+                android:textStyle="italic" />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_marginBottom="40dp"
+            android:background="@android:color/holo_orange_light"
+            android:textColorHint="@color/cardview_light_background">
+
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/editTextLocation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/location"
+                android:singleLine="true"
+                android:inputType="textCapWords|textUri"
+                android:textColor="@color/colorPrimaryDark"
+                android:textColorLink="@color/colorAccent"
+                android:textSize="24sp"
+                android:textStyle="italic" />
+        </android.support.design.widget.TextInputLayout>
+
+
+    </LinearLayout>
+</android.support.design.widget.CoordinatorLayout>

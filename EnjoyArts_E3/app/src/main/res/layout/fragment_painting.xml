@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/FrameLayoutPainting"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PaintingFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/ViewPagerPainting"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clickable="false"
+        android:visibility="visible" />
+</FrameLayout>
